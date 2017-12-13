@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * spring boot程序入口
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.schekey.saleonline.controller"})
+@ComponentScan(basePackages = {"com.schekey.saleonline.controller","com.schekey.saleonline.service","com.schekey.saleonline.mapper"})
 public class SaleonlineApplication {
 
 	public static void main(String[] args) {
